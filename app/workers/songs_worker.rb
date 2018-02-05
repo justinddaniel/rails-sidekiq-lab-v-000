@@ -1,7 +1,7 @@
 class LeadsWorker
   include Sidekiq::Worker
- 
-  def perform(songs_file)
- 
+
+  def perform(file)
+
   end
 end
